@@ -1,0 +1,34 @@
+{
+  "type": "object",
+  "properties": {
+    "access_token": {
+      "type": "string"
+    },
+    "id_token": {
+      "type": "string"
+    },
+    "refresh_token": {
+      "type": "string"
+    },
+    "expires_in": {
+      "type": "integer"
+    },
+    "token_type": {
+      "type": "string"
+    },
+    "customerId": {
+      "type": "string"
+    },
+    "partyId": {
+      "type": "string"
+    },
+    "workflow_info": {
+      "type": "object",
+      "properties": {
+        "RETAIL_ONBOARDING": {
+          "type": "array"
+        }
+      }
+    }
+  }
+}
